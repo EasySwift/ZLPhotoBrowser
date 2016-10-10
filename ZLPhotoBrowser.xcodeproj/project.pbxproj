@@ -7,6 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE1520E91DABDF1000A01D27 /* ZLPhotoBrowser_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = DE1520E71DABDF1000A01D27 /* ZLPhotoBrowser_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE1520EC1DABDF1000A01D27 /* ZLPhotoBrowser_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1520E51DABDF1000A01D27 /* ZLPhotoBrowser_iOS.framework */; };
+		DE1520ED1DABDF1000A01D27 /* ZLPhotoBrowser_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE1520E51DABDF1000A01D27 /* ZLPhotoBrowser_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DE1520F21DABDF6300A01D27 /* ToastUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = FD028BA41CBE33BB009DD2FC /* ToastUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE1520F31DABDF6300A01D27 /* ZLBigImageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FD028BA81CBE33BB009DD2FC /* ZLBigImageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE1520F41DABDF6300A01D27 /* ZLCollectionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FD028BAA1CBE33BB009DD2FC /* ZLCollectionCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE1520F51DABDF6300A01D27 /* ZLDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = FD028BAC1CBE33BB009DD2FC /* ZLDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE1520F61DABDF6300A01D27 /* ZLNoAuthorityViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FD028BAD1CBE33BB009DD2FC /* ZLNoAuthorityViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE1520F71DABDF6300A01D27 /* ZLPhotoActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = FD028BAF1CBE33BB009DD2FC /* ZLPhotoActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE1520F81DABDF6300A01D27 /* ZLPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = FD028BB11CBE33BB009DD2FC /* ZLPhotoBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE1520F91DABDF6300A01D27 /* ZLPhotoBrowserCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FD028BB31CBE33BB009DD2FC /* ZLPhotoBrowserCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE1520FA1DABDF6300A01D27 /* ZLPhotoTool.h in Headers */ = {isa = PBXBuildFile; fileRef = FD028BB51CBE33BB009DD2FC /* ZLPhotoTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE1520FB1DABDF6300A01D27 /* ZLProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = FD028BB71CBE33BB009DD2FC /* ZLProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE1520FC1DABDF6300A01D27 /* ZLSelectPhotoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FD028BB91CBE33BB009DD2FC /* ZLSelectPhotoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE1520FD1DABDF6300A01D27 /* ZLShowBigImgViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FD028BBB1CBE33BB009DD2FC /* ZLShowBigImgViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE1520FE1DABDF6300A01D27 /* ZLThumbnailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FD028BBD1CBE33BB009DD2FC /* ZLThumbnailViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE1520FF1DABDF7A00A01D27 /* ToastUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FD028BA51CBE33BB009DD2FC /* ToastUtils.m */; };
+		DE1521001DABDF7A00A01D27 /* ZLBigImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD028BA91CBE33BB009DD2FC /* ZLBigImageCell.m */; };
+		DE1521011DABDF7A00A01D27 /* ZLCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD028BAB1CBE33BB009DD2FC /* ZLCollectionCell.m */; };
+		DE1521021DABDF7A00A01D27 /* ZLNoAuthorityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD028BAE1CBE33BB009DD2FC /* ZLNoAuthorityViewController.m */; };
+		DE1521031DABDF7A00A01D27 /* ZLPhotoActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FD028BB01CBE33BB009DD2FC /* ZLPhotoActionSheet.m */; };
+		DE1521041DABDF7A00A01D27 /* ZLPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = FD028BB21CBE33BB009DD2FC /* ZLPhotoBrowser.m */; };
+		DE1521051DABDF7A00A01D27 /* ZLPhotoBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD028BB41CBE33BB009DD2FC /* ZLPhotoBrowserCell.m */; };
+		DE1521061DABDF7A00A01D27 /* ZLPhotoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FD028BB61CBE33BB009DD2FC /* ZLPhotoTool.m */; };
+		DE1521071DABDF7A00A01D27 /* ZLProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FD028BB81CBE33BB009DD2FC /* ZLProgressHUD.m */; };
+		DE1521081DABDF7A00A01D27 /* ZLSelectPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FD028BBA1CBE33BB009DD2FC /* ZLSelectPhotoModel.m */; };
+		DE1521091DABDF7A00A01D27 /* ZLShowBigImgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD028BBC1CBE33BB009DD2FC /* ZLShowBigImgViewController.m */; };
+		DE15210A1DABDF7A00A01D27 /* ZLThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD028BBE1CBE33BB009DD2FC /* ZLThumbnailViewController.m */; };
+		DE15210B1DABDF8D00A01D27 /* ZLPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FD028BFE1CBE4BDE009DD2FC /* ZLPhotoBrowser.bundle */; };
+		DE15210C1DABDF8D00A01D27 /* btn_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD028BE21CBE373F009DD2FC /* btn_circle@2x.png */; };
+		DE15210D1DABDF8D00A01D27 /* btn_circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD028BE31CBE373F009DD2FC /* btn_circle@3x.png */; };
+		DE15210E1DABDF8D00A01D27 /* btn_original_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = FD028BE41CBE373F009DD2FC /* btn_original_circle.png */; };
+		DE15210F1DABDF8D00A01D27 /* btn_original_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD028BE51CBE373F009DD2FC /* btn_original_circle@2x.png */; };
+		DE1521101DABDF8D00A01D27 /* btn_original_circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD028BE61CBE373F009DD2FC /* btn_original_circle@3x.png */; };
+		DE1521111DABDF8D00A01D27 /* btn_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = FD028BE71CBE373F009DD2FC /* btn_selected.png */; };
+		DE1521121DABDF8D00A01D27 /* btn_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD028BE81CBE373F009DD2FC /* btn_selected@2x.png */; };
+		DE1521131DABDF8D00A01D27 /* btn_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD028BE91CBE373F009DD2FC /* btn_selected@3x.png */; };
+		DE1521141DABDF8D00A01D27 /* btn_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = FD028BEA1CBE373F009DD2FC /* btn_unselected.png */; };
+		DE1521151DABDF8D00A01D27 /* btn_unselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD028BEB1CBE373F009DD2FC /* btn_unselected@2x.png */; };
+		DE1521161DABDF8D00A01D27 /* btn_unselected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD028BEC1CBE373F009DD2FC /* btn_unselected@3x.png */; };
+		DE1521171DABDF8D00A01D27 /* defaultphoto.png in Resources */ = {isa = PBXBuildFile; fileRef = FD028BED1CBE373F009DD2FC /* defaultphoto.png */; };
+		DE1521181DABDF8D00A01D27 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = FD028BEE1CBE373F009DD2FC /* lock.png */; };
+		DE1521191DABDF8D00A01D27 /* navBackBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD028BEF1CBE373F009DD2FC /* navBackBtn@2x.png */; };
+		DE15211A1DABDF8D00A01D27 /* ZLCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD028B9F1CBE33BB009DD2FC /* ZLCollectionCell.xib */; };
+		DE15211B1DABDF8D00A01D27 /* ZLNoAuthorityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD028BA01CBE33BB009DD2FC /* ZLNoAuthorityViewController.xib */; };
+		DE15211C1DABDF8D00A01D27 /* ZLPhotoActionSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD028BA11CBE33BB009DD2FC /* ZLPhotoActionSheet.xib */; };
+		DE15211D1DABDF8D00A01D27 /* ZLPhotoBrowserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD028BA21CBE33BB009DD2FC /* ZLPhotoBrowserCell.xib */; };
+		DE15211E1DABDF8D00A01D27 /* ZLThumbnailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD028BA31CBE33BB009DD2FC /* ZLThumbnailViewController.xib */; };
 		FD028BCE1CBE33BB009DD2FC /* ZLCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD028B9F1CBE33BB009DD2FC /* ZLCollectionCell.xib */; };
 		FD028BCF1CBE33BB009DD2FC /* ZLNoAuthorityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD028BA01CBE33BB009DD2FC /* ZLNoAuthorityViewController.xib */; };
 		FD028BD01CBE33BB009DD2FC /* ZLPhotoActionSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD028BA11CBE33BB009DD2FC /* ZLPhotoActionSheet.xib */; };
@@ -49,7 +97,34 @@
 		FD30F0691C72EECC0060F19F /* ZLShowBigImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FD30F0681C72EECC0060F19F /* ZLShowBigImage.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DE1520EA1DABDF1000A01D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD0787151C0D45A200D17B97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE1520E41DABDF1000A01D27;
+			remoteInfo = ZLPhotoBrowser_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DE1520F11DABDF1000A01D27 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DE1520ED1DABDF1000A01D27 /* ZLPhotoBrowser_iOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		DE1520E51DABDF1000A01D27 /* ZLPhotoBrowser_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZLPhotoBrowser_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1520E71DABDF1000A01D27 /* ZLPhotoBrowser_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLPhotoBrowser_iOS.h; sourceTree = "<group>"; };
+		DE1520E81DABDF1000A01D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD028B9F1CBE33BB009DD2FC /* ZLCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLCollectionCell.xib; sourceTree = "<group>"; };
 		FD028BA01CBE33BB009DD2FC /* ZLNoAuthorityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLNoAuthorityViewController.xib; sourceTree = "<group>"; };
 		FD028BA11CBE33BB009DD2FC /* ZLPhotoActionSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLPhotoActionSheet.xib; sourceTree = "<group>"; };
@@ -111,10 +186,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DE1520E11DABDF1000A01D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FD07871A1C0D45A200D17B97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1520EC1DABDF1000A01D27 /* ZLPhotoBrowser_iOS.framework in Frameworks */,
 				FD07877E1C0D47DA00D17B97 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,6 +205,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE1520E61DABDF1000A01D27 /* ZLPhotoBrowser_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DE1520E71DABDF1000A01D27 /* ZLPhotoBrowser_iOS.h */,
+				DE1520E81DABDF1000A01D27 /* Info.plist */,
+			);
+			path = ZLPhotoBrowser_iOS;
+			sourceTree = "<group>";
+		};
 		FD028B8E1CBE33BB009DD2FC /* PhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +279,7 @@
 			children = (
 				FD028B8E1CBE33BB009DD2FC /* PhotoBrowser */,
 				FD07871F1C0D45A200D17B97 /* ZLPhotoBrowser */,
+				DE1520E61DABDF1000A01D27 /* ZLPhotoBrowser_iOS */,
 				FD07877C1C0D47C700D17B97 /* Frameworks */,
 				FD07871E1C0D45A200D17B97 /* Products */,
 			);
@@ -196,6 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				FD07871D1C0D45A200D17B97 /* ZLPhotoBrowser.app */,
+				DE1520E51DABDF1000A01D27 /* ZLPhotoBrowser_iOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -237,7 +331,49 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		DE1520E21DABDF1000A01D27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1520E91DABDF1000A01D27 /* ZLPhotoBrowser_iOS.h in Headers */,
+				DE1520F21DABDF6300A01D27 /* ToastUtils.h in Headers */,
+				DE1520F31DABDF6300A01D27 /* ZLBigImageCell.h in Headers */,
+				DE1520F41DABDF6300A01D27 /* ZLCollectionCell.h in Headers */,
+				DE1520F51DABDF6300A01D27 /* ZLDefine.h in Headers */,
+				DE1520F61DABDF6300A01D27 /* ZLNoAuthorityViewController.h in Headers */,
+				DE1520F71DABDF6300A01D27 /* ZLPhotoActionSheet.h in Headers */,
+				DE1520F81DABDF6300A01D27 /* ZLPhotoBrowser.h in Headers */,
+				DE1520F91DABDF6300A01D27 /* ZLPhotoBrowserCell.h in Headers */,
+				DE1520FA1DABDF6300A01D27 /* ZLPhotoTool.h in Headers */,
+				DE1520FB1DABDF6300A01D27 /* ZLProgressHUD.h in Headers */,
+				DE1520FC1DABDF6300A01D27 /* ZLSelectPhotoModel.h in Headers */,
+				DE1520FD1DABDF6300A01D27 /* ZLShowBigImgViewController.h in Headers */,
+				DE1520FE1DABDF6300A01D27 /* ZLThumbnailViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		DE1520E41DABDF1000A01D27 /* ZLPhotoBrowser_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1520F01DABDF1000A01D27 /* Build configuration list for PBXNativeTarget "ZLPhotoBrowser_iOS" */;
+			buildPhases = (
+				DE1520E01DABDF1000A01D27 /* Sources */,
+				DE1520E11DABDF1000A01D27 /* Frameworks */,
+				DE1520E21DABDF1000A01D27 /* Headers */,
+				DE1520E31DABDF1000A01D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLPhotoBrowser_iOS;
+			productName = ZLPhotoBrowser_iOS;
+			productReference = DE1520E51DABDF1000A01D27 /* ZLPhotoBrowser_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		FD07871C1C0D45A200D17B97 /* ZLPhotoBrowser */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD0787341C0D45A200D17B97 /* Build configuration list for PBXNativeTarget "ZLPhotoBrowser" */;
@@ -245,10 +381,12 @@
 				FD0787191C0D45A200D17B97 /* Sources */,
 				FD07871A1C0D45A200D17B97 /* Frameworks */,
 				FD07871B1C0D45A200D17B97 /* Resources */,
+				DE1520F11DABDF1000A01D27 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DE1520EB1DABDF1000A01D27 /* PBXTargetDependency */,
 			);
 			name = ZLPhotoBrowser;
 			productName = ZLPhotoBrowser;
@@ -264,8 +402,13 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = long;
 				TargetAttributes = {
+					DE1520E41DABDF1000A01D27 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
 					FD07871C1C0D45A200D17B97 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 5N5628A342;
 					};
 				};
 			};
@@ -283,11 +426,39 @@
 			projectRoot = "";
 			targets = (
 				FD07871C1C0D45A200D17B97 /* ZLPhotoBrowser */,
+				DE1520E41DABDF1000A01D27 /* ZLPhotoBrowser_iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DE1520E31DABDF1000A01D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE15210B1DABDF8D00A01D27 /* ZLPhotoBrowser.bundle in Resources */,
+				DE15210C1DABDF8D00A01D27 /* btn_circle@2x.png in Resources */,
+				DE15210D1DABDF8D00A01D27 /* btn_circle@3x.png in Resources */,
+				DE15210E1DABDF8D00A01D27 /* btn_original_circle.png in Resources */,
+				DE15210F1DABDF8D00A01D27 /* btn_original_circle@2x.png in Resources */,
+				DE1521101DABDF8D00A01D27 /* btn_original_circle@3x.png in Resources */,
+				DE1521111DABDF8D00A01D27 /* btn_selected.png in Resources */,
+				DE1521121DABDF8D00A01D27 /* btn_selected@2x.png in Resources */,
+				DE1521131DABDF8D00A01D27 /* btn_selected@3x.png in Resources */,
+				DE1521141DABDF8D00A01D27 /* btn_unselected.png in Resources */,
+				DE1521151DABDF8D00A01D27 /* btn_unselected@2x.png in Resources */,
+				DE1521161DABDF8D00A01D27 /* btn_unselected@3x.png in Resources */,
+				DE1521171DABDF8D00A01D27 /* defaultphoto.png in Resources */,
+				DE1521181DABDF8D00A01D27 /* lock.png in Resources */,
+				DE1521191DABDF8D00A01D27 /* navBackBtn@2x.png in Resources */,
+				DE15211A1DABDF8D00A01D27 /* ZLCollectionCell.xib in Resources */,
+				DE15211B1DABDF8D00A01D27 /* ZLNoAuthorityViewController.xib in Resources */,
+				DE15211C1DABDF8D00A01D27 /* ZLPhotoActionSheet.xib in Resources */,
+				DE15211D1DABDF8D00A01D27 /* ZLPhotoBrowserCell.xib in Resources */,
+				DE15211E1DABDF8D00A01D27 /* ZLThumbnailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FD07871B1C0D45A200D17B97 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -321,6 +492,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DE1520E01DABDF1000A01D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1520FF1DABDF7A00A01D27 /* ToastUtils.m in Sources */,
+				DE1521001DABDF7A00A01D27 /* ZLBigImageCell.m in Sources */,
+				DE1521011DABDF7A00A01D27 /* ZLCollectionCell.m in Sources */,
+				DE1521021DABDF7A00A01D27 /* ZLNoAuthorityViewController.m in Sources */,
+				DE1521031DABDF7A00A01D27 /* ZLPhotoActionSheet.m in Sources */,
+				DE1521041DABDF7A00A01D27 /* ZLPhotoBrowser.m in Sources */,
+				DE1521051DABDF7A00A01D27 /* ZLPhotoBrowserCell.m in Sources */,
+				DE1521061DABDF7A00A01D27 /* ZLPhotoTool.m in Sources */,
+				DE1521071DABDF7A00A01D27 /* ZLProgressHUD.m in Sources */,
+				DE1521081DABDF7A00A01D27 /* ZLSelectPhotoModel.m in Sources */,
+				DE1521091DABDF7A00A01D27 /* ZLShowBigImgViewController.m in Sources */,
+				DE15210A1DABDF7A00A01D27 /* ZLThumbnailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FD0787191C0D45A200D17B97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,6 +536,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		DE1520EB1DABDF1000A01D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE1520E41DABDF1000A01D27 /* ZLPhotoBrowser_iOS */;
+			targetProxy = DE1520EA1DABDF1000A01D27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		FD0787291C0D45A200D17B97 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -366,6 +564,63 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DE1520EE1DABDF1000A01D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZLPhotoBrowser_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YXJ.ZLPhotoBrowser-iOS";
+				PRODUCT_MODULE_NAME = ZLPhotoBrowser_iOS;
+				PRODUCT_NAME = ZLPhotoBrowser_iOS;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE1520EF1DABDF1000A01D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZLPhotoBrowser_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YXJ.ZLPhotoBrowser-iOS";
+				PRODUCT_MODULE_NAME = ZLPhotoBrowser_iOS;
+				PRODUCT_NAME = ZLPhotoBrowser_iOS;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		FD0787321C0D45A200D17B97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -454,6 +709,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5N5628A342;
 				INFOPLIST_FILE = ZLPhotoBrowser/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -467,6 +723,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5N5628A342;
 				INFOPLIST_FILE = ZLPhotoBrowser/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -479,6 +736,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DE1520F01DABDF1000A01D27 /* Build configuration list for PBXNativeTarget "ZLPhotoBrowser_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1520EE1DABDF1000A01D27 /* Debug */,
+				DE1520EF1DABDF1000A01D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		FD0787181C0D45A200D17B97 /* Build configuration list for PBXProject "ZLPhotoBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
